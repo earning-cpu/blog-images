@@ -1,0 +1,16 @@
+/* blog-automation-theme v1 | hi-main */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Noto+Sans+Devanagari:wght@400;600;700&display=swap');
+/* blog-automation-theme v1 */
+body { font-family: Inter, "Noto Sans Devanagari", system-ui, sans-serif; line-height: 1.7; color: #1f2937; }
+h1, h2, h3, h4 { line-height: 1.3; color: #111827; }
+.post-body { font-size: 17px; }
+.post-body img { max-width: 100%; height: auto; border-radius: 6px; }
+.post-body table { width: 100%; border-collapse: collapse; margin: 16px 0; }
+.post-body th, .post-body td { border: 1px solid #e5e7eb; padding: 8px 10px; text-align: left; }
+.post-body th { background: #f9fafb; }
+a { color: #1d4ed8; }
+.post-title a { color: #111827; text-decoration: none; }
+@media (max-width: 600px) { .post-body { font-size: 16px; } }
+/* hindi-typography v1 (Hindi blogs only; Blogger does not set the html lang attribute) */
+body { font-family: "Noto Sans Devanagari", Inter, sans-serif; line-height: 1.9; }
+.post-body { font-size: 18px; }
